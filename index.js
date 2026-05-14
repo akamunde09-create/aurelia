@@ -64,4 +64,6 @@ const loadEventHandlers = async (client) => {
     log('Distube Music System loaded');
     
     console.log(`\n[STATUS] All systems initialized successfully at ${new Date().toLocaleTimeString()}\n`);
+    console.log("MONGODB_URI:",
+    process.env.MONGODB_URI);           
 };
